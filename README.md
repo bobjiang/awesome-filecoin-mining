@@ -1,24 +1,34 @@
 # Filecoin 挖矿资源合集
 
-这里汇集了Filecoin挖矿相关的一些资源和官方文档，如果你有其他资源推荐，欢迎[提交PR](/pulls)
+这里汇集了Filecoin挖矿相关的一些资源和官方文档，如果你有其他资源推荐，欢迎[提交PR](https://github.com/bobjiang/awesome-filecoin-mining/pulls)
+
+加入 `Telegram` [Filecoin中文讨论组](https://t.me/filecointop)
 
 # 目录
 
 - [新手入门](./lotus-cheat-sheet-v2.md)
 - [常见问题]
+- 太空竞赛
 - [官方文档]
 - [代码]
 - [浏览器]
 
 ## 新手入门
 
-感谢 [j04nnada](https://filecoinproject.slack.com/archives/D01AV0THK7U) 提供的第一版[新手入门手册cheat sheet](./lotus_cheat_sheet-v1.md)
-
 新手入门请参考[新手入门必读第二版（中文）](./lotus-cheat-sheet-v2.md)
+
+致谢： [j04nnada](https://filecoinproject.slack.com/archives/D01AV0THK7U) 提供的第一版[新手入门手册cheat sheet](./lotus_cheat_sheet-v1.md)
+
+## 太空竞赛
+
+- [太空竞赛Slack讨论组 - 活跃 **强烈推荐加入**](https://filecoinproject.slack.com/archives/C0179RNEMU4)
+- [太空竞赛水龙头 - 申请测试币FIL](https://spacerace.faucet.glif.io/)
+- [官方声明](https://filecoinproject.slack.com/archives/C019UFEACBT)
+- [浏览器](https://spacerace.filecoin.io/)
 
 ## 常见问题
 
-常见问题，[请移步](/issues)
+常见问题，[请移步](https://github.com/bobjiang/awesome-filecoin-mining/issues)
 
 ## Lotus 官方文档
   
