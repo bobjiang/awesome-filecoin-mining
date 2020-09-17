@@ -1,6 +1,6 @@
 # Filecoin 挖矿资源合集
 
-这里汇集了Filecoin挖矿相关的一些资源和官方文档，如果你有其他资源推荐，欢迎[提交PR](./pulls)
+这里汇集了Filecoin挖矿相关的一些资源和官方文档，如果你有其他资源推荐，欢迎[提交PR](/pulls)
 
 # 目录
 
@@ -12,13 +12,13 @@
 
 ## 新手入门
 
-感谢 提供的第一版[新手入门手册cheat sheet](./lotus_cheat_sheet-v1.md)
+感谢 [j04nnada](https://filecoinproject.slack.com/archives/D01AV0THK7U) 提供的第一版[新手入门手册cheat sheet](./lotus_cheat_sheet-v1.md)
 
 新手入门请参考[新手入门必读第二版（中文）](./lotus-cheat-sheet-v2.md)
 
 ## 常见问题
 
-常见问题，[请移步](./issues)
+常见问题，[请移步](/issues)
 
 ## Lotus 官方文档
   

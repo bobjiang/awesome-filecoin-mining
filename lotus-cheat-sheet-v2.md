@@ -8,25 +8,25 @@
 
 # 编译过程，可以参考或直接下载 `build-lotus.sh`
 
-[build-lotus.sh](./blob/master/scripts/build-lotus.sh)
+[build-lotus.sh](./scripts/build-lotus.sh)
 
 **install dependencies**
-
+```
 sudo apt update
 sudo apt install -y mesa-opencl-icd ocl-icd-opencl-dev gcc git bzr jq pkg-config curl
 sudo apt upgrade -y
-
+```
 如果你在中国，go 和 rust的安装需要设置代码，请参考如下配置
 
 **install Go from https://golang.org/doc/install**  
 **download go-lang package**
 
-sudo tar -C /usr/local -xzf go1.14.7.linux-amd64.tar.gz
+`sudo tar -C /usr/local -xzf go1.14.7.linux-amd64.tar.gz`
 
 https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md
 
 **install Rust from https://www.rust-lang.org/tools/install**
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs -y | sh
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs -y | sh`
 
 **setup rust source in China**
 
@@ -41,52 +41,53 @@ registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 ```
 
 **set environment variables**
-
+```
 export BELLMAN_CPU_UTILIZATION=0.9
 export FIL_PROOFS_MAXIMIZE_CACHING=1
 export FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1
 export FIL_PROOFS_USE_GPU_TREE_BUILDER=1
-
+```
 **append these export commands to ~/.bashrc to set them when starting a new shell session**
 
 **setup a 256GB swap file to avoid out-of-memory issues while mining if you only have 128GB RAM**
-
+```
 sudo fallocate -l 256G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
-
+```
 **show current swap spaces and take note of the current highest priority**
 
-swapon --show
+`swapon --show`
 
 **append the following line to /etc/fstab (ensure pri is set larger than the current highest level priority) and then reboot**
 
 `/swapfile swap swap pri=50 0 0`
 
-sudo reboot
+`sudo reboot`
+
 **check a 256GB swap file exists and it has the highest priority**
 
-swapon --show
+`swapon --show`
 
 ## install or reinstall lotus
 
 **clone lotus from GitHub and checkout ntwk-calibration**
-
+```
 cd ~ && git clone https://github.com/filecoin-project/lotus.git && cd lotus
 git reset --hard && git fetch --all && git checkout ntwk-calibration
-
+```
 **set environment variables to build from source (without these lotus will still run but sealing will take considerably longer)**
-
+```
 export RUSTFLAGS="-C target-cpu=native -g"
 export RUST_LOG=info
 export FFI_BUILD_FROM_SOURCE=1
-
+```
 **make and install it**
-
+```
 make clean && make all
 sudo make install
-
+```
 # 启动节点（lotus daemon）
 
 启动节点的命令如下：
@@ -143,6 +144,7 @@ export FIL_PROOFS_PARAMETER_CACHE=/home/test/storage/filecoin-proof-parameters
 如：
 `lotus-miner info`
 
+```
 Miner: t015685
 Sector Size: 32 GiB
 Byte Power:   0 B / 8.5 PiB (0.0000%)
@@ -166,6 +168,7 @@ Expected Seal Duration: 12h0m0s
 
 Sectors:
 	Total: 0
+```
 
 # 下一步
 
