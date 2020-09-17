@@ -36,6 +36,7 @@
 - [Filecoin文档](https://docs.filecoin.io/)
 - [Filecoin【中文版】](https://filecoin.io/zh-cn/)
 - [SpaceRace 官方说明](https://spacerace.filecoin.io/)
+- [Filecoin开发者奖励计划](https://github.com/filecoin-project/devgrants)
 
 ## 代码下载地址
 
