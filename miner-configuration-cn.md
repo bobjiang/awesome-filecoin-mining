@@ -5,6 +5,8 @@ description: '本文详细描述了lotus中的配置文件中的选项，以及�
 
 # Lotus Miner配置文件详解
 
+[英文原文](https://docs.filecoin.io/mine/lotus/miner-configuration/)
+
 本文描述了 Lotus 配置文件，以及其中每个参数的具体含义。
 
 Lotus Miner 配置文件在矿工初始化后创建的，存储于 `~/.lotusminer/config.toml` or `$LOTUS_MINER_PATH/config.toml` 。
@@ -14,8 +16,6 @@ Lotus Miner 配置文件在矿工初始化后创建的，存储于 `~/.lotusmine
 ::: tip
 配置文件的修改要生效的话，需要重启 miner 
 :::
-
-[[TOC]]
 
 ## API section
 
