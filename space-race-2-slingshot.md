@@ -1,6 +1,8 @@
 太空竞赛2：弹弓(Slingshot) - 针对开发者的 Filecoin 竞赛
 ----------
 
+[英文原文链接](https://filecoin.io/blog/announcing-sr2-slingshot/)
+
 ![宣布太空竞赛2：弹弓](https://filecoin.io/vintage/images/blog/slingshot-header.jpg)
 
 祝贺所有参加太空竞赛1（简称SR1）的人！这真是一个令人震惊的事件，并且是Filecoin挖矿社区的广度、深度和承诺的真实证明。您可以在[此博客文章中阅读有关SR1](https://filecoin.io/blog/space-race-2/)和[Space Race 2（SR2）轨道燃烧的更多信息](https://filecoin.io/blog/space-race-2/)。
