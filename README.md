@@ -15,7 +15,8 @@
 
 ## 新手入门
 
-新手入门请参考[新手入门必读第二版（中文）](./lotus-cheat-sheet-v2.md)
+- 新手入门请参考[新手入门必读第二版（中文）](./lotus-cheat-sheet-v2.md)
+- [Lotus参数大全](./miner-configuration-cn.md)
 
 致谢： [j04nnada](https://filecoinproject.slack.com/archives/D01AV0THK7U) 提供的第一版[新手入门手册cheat sheet](./lotus_cheat_sheet-v1.md)
 
