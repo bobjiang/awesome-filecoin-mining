@@ -21,6 +21,7 @@
 
 ## 太空竞赛
 
+- [太空竞赛2 - 开发者参与 - Slingshot](./space-race-2-slingshot.md)
 - [太空竞赛Slack讨论组 - 活跃 **强烈推荐加入**](https://filecoinproject.slack.com/archives/C0179RNEMU4)
 - [太空竞赛水龙头 - 申请测试币FIL](https://spacerace.faucet.glif.io/)
 - [官方声明](https://filecoinproject.slack.com/archives/C019UFEACBT)
